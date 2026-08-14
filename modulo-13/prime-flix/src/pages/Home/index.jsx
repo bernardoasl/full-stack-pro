@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 
-// URL DA API: /movie/now_playing?api_key=ebee854b08c607d030383ea49a9ed5c3&language=pt-BR
-
 export default function Home(){
   const [filmes, setFilmes] = useState([]);
 
